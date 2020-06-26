@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url('calculator.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+}
+.mainDiv{
+    margin: auto;
+    border: 2px solid black;
+    width: 334px;
+    border-radius: 10px;
+}
+.subDiv{
+    text-align: center;
+    background-color: black;
+    color: orange;
+}
+.main{
+    border: 2px solid black;
+    width: 204px;
+    background-color: black;
+    
+}
+input{
+    width: 330px;
+    height: 80px;
+    background-color:orange;
+    font-size: 30px;
+    color:black;
+    border-color: black;
+    outline: none;
+}
+button{
+    width: 70px;
+    height: 70px;
+    margin: 5px;
+    background-color: black;
+    color:orange;
+    border-color: black;
+    font-size: 30px;
+    outline: none;
+   
+}
+button:hover{
+    background-color: orange;
+    color: black;
+}
+button:active{
+    background-color: black;
+    color: orange;
+}
